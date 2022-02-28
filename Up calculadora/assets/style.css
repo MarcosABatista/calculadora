@@ -1,0 +1,38 @@
+#calculadora {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#visor {
+  background-color: #bdffb4;
+}
+form {
+  border: 1px solid black;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+  display: block;
+}
+table {
+  margin: 0 auto 0 auto;
+}
+
+form input {
+  width: 100%;
+  border: solid #ccc 1px;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+form input.num {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+}
+
+form input.oper {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  background-color: #b2b2b2;
+}
